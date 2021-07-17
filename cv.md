@@ -27,3 +27,4 @@ No
 
      * Russian (native speaker)
      * English ( Intermediate)
+     * Espanol (Begginner)
