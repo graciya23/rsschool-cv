@@ -1,1 +1,1 @@
-https://graciya23.github.io/rsschool-cv/html-css-git
+https://github.com/graciya23/rsschool-cv/blob/rsschool-cv-html/html-css-git
