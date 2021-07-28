@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>CV</title>
+    <style>
+body {
+    font-family: Tahoma, sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #a6faa6;
+    color: aliceblue;
+       }
+
+.mycv {
+    width: 700px;
+    height: 1000px;
+    margin: auto;
+    background-color: rgb(75, 199, 113);
+            
+        }        
+
+.name {
+  margin: 0;
+  text-align: center;
+}
+
+
+.contacts{
+  margin-left: 10px;
+}
+
+.cv {
+  padding: 10px;
+  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    -23px 0 20px -23px rgba(0, 0, 0, 0.6), 23px 0 20px -23px rgba(0, 0, 0, 0.6),
+    inset 0 0 40px rgba(0, 0, 0, 0.1);
+}
+
+.main-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.myname {
+  margin-top: 20px;
+  margin-right: 90px;
+  font-size: 36px;
+}
+
+.aboutme{
+  padding-left: 280px;
+}
+
+.aboutinfo {
+  margin: 0;
+}
+
+.skills {
+  margin-left: 280px;
+}
+
+.main-skills {
+  margin-right: 150px;
+}
+        
+.work {
+    margin-left: 250px;
+} 
+        
+.education {
+    margin-left: 250px;
+}
+
+.languages {
+  margin-left: 250px;
+}
+
+.footer {
+  display: grid;
+  grid-template: auto auto / auto;
+  grid-template-areas: 'links' 'date';
+  border-top: 2px solid rgba(59, 59, 59, 0.7);
+}
+
+.footer-link {
+  margin-right: 200px;
+  display: inline;
+}
+
+.footer-image {
+  height: 30px;
+}
+
+.footer-date {
+  place-self: center;
+  font-weight: 700;
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="mycv">
+      <main class="cv">
+        <section class="main-info">
+          <div class="image">
+            <img src="image/IMAGE%202021-07-21%2011:53:13.jpg" alt="image" width="240" height="240">
+          </div>
+          <div class="name">
+            <h1 class="myname">Yulia Syunyaeva</h1>
+            <h2>Contacts</h2>
+          <address>
+            <ul class="contacts">
+              <li >
+                Tel: <strong>+79002830033 </strong>
+              </li>
+              <li >
+                E-mail: <strong> yulenkakhabarova@gmail.com </strong>
+              </li>
+              <li >
+                Instagram: <strong>@graciya23</strong>
+              </li>
+            </ul>
+          </address>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="aboutme">About me</h2>
+        <p class="aboutinfo">
+          I am 33 years old, higher education. I live in Krasnodar. I'm married and I have 3 children. I'm responsible and purposeful, with an active lifestyle, focused on results.
+        </p>
+      </section>
+
+      <section class="skills">
+        <h2>My skills</h2>
+        <div class="main-skills">
+          <ul>
+            <li>JS</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git</li>
+           
+            
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="work">Work experience</h2> 
+          <div>
+            <ul>
+              <li>2015-2016 Assistant director in Taxi "Rush" (Kaluga) </li>
+              <li>2010-2011 Teacher in RSAU-MTAA named after K.A.Timiryazev (Kaluga), department of accounting and auditing </li>
+            </ul>
+          </div>
+      </section>
+
+        <section>
+        <h2  class="education">Education</h2>
+        <ul>
+          <li>2021-2022 (expected) : "Front-End Developer" (Krasnodar)</li>
+          <li>2005-2010 : "Accounting and auditing" in RSAU-MTAA named after K.A.Timiryazev (Kaluga) </li>
+        </ul>
+        </section>
+
+        <section>
+        <h2 class="languages">Human Languages</h2>
+        <ul>
+          <li>Russian (native speaker)</li>
+          <li>English ( Intermediate) </li>
+          <li>Espanol (Begginner)</li>
+          </ul>
+        </section>
+        <footer class="footer">
+          <a class="footer-link" href="https://rs.school/js/">  The Rolling Scopes </a>
+          <img class="footer-image" src="image/rs_school_js.svg" alt="rs-school-js" width="100" height="100">
+          <div class="footer-date"><time datetime="2021">2021</time></div>
+        </footer>
+      </main>
+    </div>   
+  </body>
+</html>
